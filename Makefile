@@ -32,7 +32,7 @@ HOST=
 
 # Define targets
 run:					# Launches the application in Chrome
-	/usr/bin/chronium-browser http://localhost:$(PORT)
+	/usr/bin/chromium-browser http://localhost:$(PORT)
 
 start:					# (re)starts the uwsgi and nginx services. Needs to be run as root (using sudo)
 	service uwsgi restart
